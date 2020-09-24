@@ -7,10 +7,10 @@ let pwidth = Dimensions.get('window').width;
 let pheight = Dimensions.get('window').height;
 
 MapApp.propTypes = {
-  locarr: PropTypes.array.isRequired,
+  locationcoords: PropTypes.array.isRequired,
 };
 
-function MapApp({locarr}) {
+function MapApp({locationcoords}) {
   return (
     <MapView
       style={styles.map}
@@ -20,7 +20,7 @@ function MapApp({locarr}) {
         latitudeDelta: 10,
         longitudeDelta: 10,
       }}>
-      {locarr.map((coords, i) => (
+      {locationcoords.map((coords, i) => (
         <Marker
           coordinate={{latitude: coords.lat, longitude: coords.long}}
           title={`${coords.id}`}

@@ -85,7 +85,7 @@ export default class App extends Component {
     const {loccoors} = this.state;
     return (
       <View style={styles.container}>
-        <MapApp style={styles.map} locarr={loccoors} />
+        <MapApp style={styles.map} locationcoords={loccoors} />
       </View>
     );
   }
