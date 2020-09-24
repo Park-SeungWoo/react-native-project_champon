@@ -2,9 +2,9 @@
 
 ## used modules
 
-> react-native-power-translator
-> prop-types
-> react-native-maps
+> - react-native-power-translator
+> - prop-types
+> - react-native-maps
 
 ## execution screen
 
