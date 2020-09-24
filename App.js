@@ -17,7 +17,7 @@ import MapApp from './MapApp';
 let pwidth = Dimensions.get('window').width;
 let pheight = Dimensions.get('window').height;
 
-const API_KEY = 'AIzaSyBnFTdbCGJDFEfHXjwIy6z8403DmwGxuro';
+const API_KEY = '';
 
 export default class App extends Component {
   state = {
